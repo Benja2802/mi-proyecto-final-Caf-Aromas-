@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Satisfacción - Café Aroma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="encabezado-principal">
+        <h1 class="titulo-principal">Café Aroma</h1>
+        <img src="../recursos/image/logo-cafeteria.jpeg" alt="Logo de Café Aroma" height="250">
+    </header>
+
+    <nav id="menu-principal">
+        <ul class="menu-navegacion">
+            <li><a href="index.html#historia" class="enlace-menu">Nuestra Historia</a></li>
+            <li><a href="index.html#productos" class="enlace-menu">Nuestros productos</a></li>
+            <li><a href="index.html#origenes" class="enlace-menu">Origenes</a></li>
+            <li><a href="index.html#por-que" class="enlace-menu">¿Por que elegirnos?</a></li>
+            <li><a href="index.html#ubicacion" class="enlace-menu">Ubicación</a></li>
+            <li><a href="index.html#reservas" class="enlace-menu">Reservas</a></li>
+            <li><a href="index.html#contacto" class="enlace-menu">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main id="contenido-principal">
+        <section class="seccion">
+            <h2 class="titulo-seccion">Encuesta de Satisfacción</h2>
+            <p class="parrafo-destacado">Tu opinión es muy importate para nosotros. Ayúdanos a mejorar nuestro servicio contestando esta breve encuesta</p>
+        </section>
+
+        <div class="encuesta-container">
+            <form id="formulario-encuesta">
+                <fieldset>
+                    <legend>Datos de la visita</legend>
+
+                    <div class="form-group">
+                        <label for="encuesta-fecha">Fecha aproximada de tu visita:</label>
+                        <input type="date" id="encuesta-fecha" name="encuesta-fecha" required>
+                    </div>
+
+                    <div class="form-group">
+                        <p>¿Es tu primera vez en nuestra cafeteria?</p>
+                        <div class="radio-group">
+                        
+                            <input type="radio" id="primera-si" name="primera-visita" value="si">
+                            <label for="primera-si">Si</label>
+
+                            <input type="radio" id="primera-no" name="primera-visita" value="no">
+                            <label for="primera-no">No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <p>¿Con que frecuencia nos visitas?</p>
+                        <div class="radio-group">
+                            <input type="radio" id="frecuencia-primera" name="frecuencia-visita" value="primera">
+                            <label for="frecuencia-primera">Primera vez</label>
+
+                            <input type="radio" id="frecuencia-ocacional" name="frecuencia-visita" value="ocacional">
+                            <label for="frecuencia-ocacional">Ocacionalmente</label>
+
+                            <input type="radio" id="frecuencia-mensual" name="frecuencia-visita" value="mensual">
+                            <label for="frecuencia-mensual">Mensualmente</label>
+
+                            <input type="radio" id="frecuencia-semanal" name="frecuencia-visita" value="semanal">
+                            <label for="frecuencia-semanal">Semanalmenre</label>
+
+                            <input type="radio" id="frecuencia-diaria" name="frecuencia-visita" value="diaria">
+                            <label for="frecuencia-diaria">Casi a diario</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Evaluación a nuestra cafeteria</legend>
+                    <p class="form-subtitle">Por favor, valora los siguientes aspectos de tu experiencia:</p>
+
+                    <div class="form-group rating-group">
+                        <label for="calidad-cafe">Calidad del café:</label>
+                        <div class="rating">
+                            <input type="radio" id="cafe-5" name="calidad-cafe" value="5" required>
+                            <label for="cafe-5">5 - Excelente</label>
+
+                            <input type="radio" id="cafe-4" name="calidad-cafe" value="4">
+                            <label for="cafe-4">4 - Muy bueno</label>
+
+                            <input type="radio" id="cafe-3" name="calidad-cafe" value="3">
+                            <label for="cafe-3">3 - Bueno</label>
+
+                            <input type="radio" id="cafe-2" name="calidad-cafe" value="2">
+                            <label for="cafe-2">2 - Regular</label>
+
+                            <input type="radio" id="cafe-1" name="calidad-cafe" value="1">
+                            <label for="cafe-1">1 - Muy malo</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group rating-group">
+                        <label for="calidad-comida">Calidad de la comida:</label>
+                        <div class="rating">
+                            <input type="radio" id="comida-5" name="calidad-comida" value="5" required>
+                            <label for="comida-5">5 - Excelente</label>
+
+                            <input type="radio" id="comida-4" name="calidad-comida" value="4">
+                            <label for="comida-4">4 - Muy bueno</label>
+
+                            <input type="radio" id="comida-3" name="calidad-comida" value="3">
+                            <label for="comida-3">3 - Bueno</label>
+
+                            <input type="radio" id="comida-2" name="calidad-comida" value="2">
+                            <label for="comida-2">2 - Regular</label>
+
+                            <input type="radio" id="comida-1" name="calidad-comida" value="1">
+                            <label for="comida-1">1 - Muy malo</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group rating-group">
+                        <label for="servicio">Atención del personal:</label>
+                        <div class="rating">
+                            <input type="radio" id="servicio-5" name="servicio" value="5" required>
+                            <label for="servicio-5">5 - Excelente</label>
+
+                            <input type="radio" name="servicio" id="servicio-4" value="4">
+                            <label for="servicio-4">4 - Muy bueno</label>
+
+                            <input type="radio" name="servicio" id="servicio-3" value="3">
+                            <label for="servicio-3">3 - Bueno</label>
+
+                            <input type="radio" id="servicio-2" name="servicio" value="2">
+                            <label for="servicio-2">2 - Regular</label>
+
+                            <input type="radio" id="servicio-1" name="servicio" value="1">
+                            <label for="servicio-1">1 - Muy malo</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group rating-group">
+                        <label for="ambiente">Ambiente y decoracion:</label>
+                        <div class="rating">
+                            <input type="radio" id="ambiente-5" name="ambiente" value="5" required>
+                            <label for="ambiente-5">5 - Excelente</label>
+
+                            <input type="radio" id="ambiente-4" name="ambiente" value="4">
+                            <label for="ambiente-4">Muy bueno</label>
+
+                            <input type="radio" id="ambiente-3" name="ambiente" value="3">
+                            <label for="ambiente-3">Bueno</label>
+
+                            <input type="radio" name="ambiente" id="ambiente-2" value="2">
+                            <label for="ambiente-2">Regular</label>
+
+                            <input type="radio" name="ambiente" id="ambiente-1" value="1">
+                            <label for="ambiente-1">Muy malo</label>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    
+    <footer id="pie-pagina">
+        <p class="copyright">Café Aroma(C) 2025 - Todos los derechos reservados</p>
+        <p class="contacto">Dirección: Calle del Café 123, Ciudad</p>
+        <p class="contacto">Teléfono: 123-456-789</p>
+    </footer>
+</body>
+</html>

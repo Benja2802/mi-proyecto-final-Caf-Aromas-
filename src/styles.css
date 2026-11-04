@@ -1,0 +1,374 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f5f2;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+   }
+   
+   /* Estilos para el encabezado principal */
+   #encabezado-principal {
+    background-color: #5c3d2e;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+   }
+   
+   .titulo-principal {
+    color: #f5ebe0;
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-decoration: none;
+   }
+   
+   .logo {
+    max-width: 150px;
+    border: 3px solid #f5ebe0;
+    border-radius: 50%;
+    padding: 5px;
+   }
+   
+   /* Estilos para la navegación principal */
+   #menu-principal {
+    background-color: #b85c38;
+    padding: 10px 0;
+   }
+   
+   .menu-navegacion {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+   }
+   
+   .enlace-menu {
+    color: #f5ebe0;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+   }
+   
+   .enlace-menu:hover {
+    background-color: #e6ccb2;
+    color: #5c3d2e;
+   }
+   
+   /* Estilos para las secciones */
+   .seccion {
+    padding: 40px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   }
+   
+   .titulo-seccion {
+    color: #b85c38;
+    font-size: 28px;
+    border-bottom: 2px dotted #b85c38;
+    padding-bottom: 10px;
+   }
+   
+   .parrafo-destacado {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #5c3d2e;
+    background-color: #f5ebe0;
+    padding: 15px;
+    border-left: 3px solid #b85c38;
+   }
+   
+   .parrafo {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #5c3d2e;
+   }
+   
+   .imagen-destacada {
+    max-width: 100%;
+    border: 3px solid #b85c38;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   }
+   
+   /* Estilos para productos */
+   .producto {
+    margin-bottom: 30px;
+   }
+   
+   .subtitulo {
+    color: #5c3d2e;
+    font-size: 22px;
+    margin-top: 25px;
+    border-left: 4px solid #b85c38;
+    padding-left: 10px;
+   }
+   
+   .lista-productos {
+    background-color: #f5ebe0;
+    padding: 20px 20px 20px 40px;
+    border-radius: 8px;
+    margin: 20px 0;
+   }
+   
+   .item-producto {
+    margin-bottom: 10px;
+    color: #5c3d2e;
+    line-height: 1.6;
+   }
+   
+   /* Estilos para pie de página */
+   #pie-pagina {
+    background-color: #5c3d2e;
+    color: #f5ebe0;
+    padding: 20px;
+    text-align: center;
+   }
+   
+   .copyright {
+    font-style: italic;
+    margin-top: 20px;
+   }
+   
+   .contacto {
+    margin: 5px 0;
+   }
+   
+   /* Estilos para enlaces */
+   .enlaces-footer {
+    margin-bottom: 15px;
+   }
+   
+   .enlace-footer {
+    color: #e6ccb2;
+    text-decoration: none;
+    padding: 3px 6px;
+    transition: all 0.3s ease;
+   }
+   
+   .enlace-footer:hover {
+    color: #fff;
+    text-decoration: underline;
+   }
+   
+   /* Estilos para sección de contacto */
+   .lista-contacto {
+    list-style: none;
+    padding: 0;
+   }
+   
+   .enlace-contacto {
+    color: #b85c38;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 0;
+    font-weight: 500;
+    transition: all 0.3s ease;
+   }
+   
+   .enlace-contacto:hover {
+    color: #5c3d2e;
+    text-decoration: underline;
+   }
+   
+   .redes-sociales {
+    margin-top: 30px;
+   }
+   
+   .enlace-social {
+    color: #b85c38;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+   }
+   
+   .enlace-social:hover {
+    color: #5c3d2e;
+    text-decoration: underline;
+   }
+   
+   /* Estilos para la barra lateral */
+   #eventos {
+    background-color: #f5ebe0;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    border-left: 5px solid #b85c38;
+   }
+   
+   /* Estilos personalizados para los diferentes estados de enlaces */
+   a:link {
+    /* Estilos para enlaces no visitados */
+    color: #b85c38;
+   }
+   
+   a:visited {
+    /* Estilos para enlaces visitados */
+    color: #8b4513;
+   }
+   
+   a:hover {
+    /* Estilos al pasar el ratón */
+    color: #5c3d2e;
+    text-decoration: underline;
+   }
+   
+   a:active {
+    /* Estilos al hacer clic */
+    color: #e63946;
+   }
+   
+   /* Estilos para la tabla de horarios */
+   table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+   
+   caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #5c3d2e;
+   }
+   
+   th {
+    background-color: #b85c38;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+    font-weight: 600;
+   }
+   
+   td {
+    padding: 10px 15px;
+    border: 1px solid #e0e0e0;
+    color: #5c3d2e;
+   }
+   
+   /* Estilos para enlaces secundarios */
+   .enlace-secundario {
+    display: inline-block;
+    margin-top: 15px;
+    color: #b85c38;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+   }
+   
+   .enlace-secundario:hover {
+    color: #5c3d2e;
+    text-decoration: underline;
+   }
+   
+   /* Estilos para la lista de información */
+   .lista-informacion {
+    background-color: #f5ebe0;
+    padding: 15px 15px 15px 40px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border-left: 3px solid #b85c38;
+   }
+   
+   .item-informacion {
+    margin-bottom: 8px;
+    color: #5c3d2e;
+    line-height: 1.6;
+    font-style: italic;
+   }
+   
+   /* Estilos para la tabla del menú */
+   .tabla-menu {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   }
+   
+   /* Enlace para volver a la página principal */
+   .volver-inicio {
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+   }
+   
+   .enlace-volver {
+    color: #b85c38;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 15px;
+    border: 2px solid #b85c38;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+   }
+   
+   .enlace-volver:hover {
+    background-color: #b85c38;
+    color: #fff;
+    text-decoration: none;
+   }
+   
+   /* Estilos para los estados de enlaces específicos */
+   .enlace-menu:link {
+    color: #f5ebe0;
+    text-decoration: none;
+   }
+   
+   .enlace-menu:visited {
+    color: #e6ccb2;
+   }
+   
+   .enlace-menu:hover {
+    background-color: #e6ccb2;
+    color: #5c3d2e;
+    text-decoration: none;
+   }
+   
+   .enlace-menu:active {
+    background-color: #5c3d2e;
+    color: #f5ebe0;
+   }
+   
+   .enlace-social:link {
+    color: #b85c38;
+    font-weight: 500;
+   }
+   
+   .enlace-social:visited {
+    color: #8b4513;
+   }
+   
+   .enlace-social:hover {
+    color: #5c3d2e;
+    text-decoration: underline;
+   }
+   
+   .enlace-social:active {
+    color: #e63946;
+   }
+   
+   .enlace-footer:link {
+    color: #e6ccb2;
+    text-decoration: none;
+   }
+   
+   .enlace-footer:visited {
+    color: #d6b89e;
+   }
+   
+   .enlace-footer:hover {
+    color: #fff;
+    text-decoration: underline;
+   }
+   
+   .enlace-footer:active {
+    color: #f5ebe0;
+    text-decoration: none;
+   }
